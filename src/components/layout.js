@@ -7,10 +7,18 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
-import Header from "./header"
+
+import styled from "styled-components";
+import Nav from './nav'
 import "./layout.css"
+
+const StyledLink = styled(props => <Link {...props} />)`
+    text-decoration: none;
+    text-decoration-color: initial;
+    text-decoration-style: initial;
+`;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +33,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <div>
+        <StyledLink><h1 className="headerPreston">preston</h1></StyledLink>
+      </div>
+
+      <div className="headerOther">
+          <Nav />
+      </div>
       <div
         style={{
           margin: `0 auto`,
@@ -35,9 +49,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     </>

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+
+  .aboutTime {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  .aboutText {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  .headerPreston {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .headerOther {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .headerLanding {
+    top: 55.5%;
+    left: 52%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  .workedLogo {
+    max-width: auto;
+    height: 80px;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  td {
+    text-align: middle;
+  }
+
+  .skill {
+    font-family: Inconsolata, monospace;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    /* text-transform: lowercase; */
+    user-select: none;
+    cursor: default;
+    padding: 0px 6px;
+    border-radius: 2px;
+    background: none;
+  }
+
+  .projectContainer {
+    /* background-color: green; */
+    margin: 0 auto;
+    max-width: 560px;
+    padding: 0 2.0875rem 1.45rem;
+    padding: 20px;
+    padding-top: 2rem;
+  }
+
+  .project {
+    background-color: rgb(250, 250, 250);
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .3s;
+  }
+
+  .project:hover {
+    transform: scale(1.025);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .red {
+    background-color: rgb(242, 196, 183);
+    color: rgb(143, 90, 81);
+  }
+
+  .green {
+    background-color: rgb(131, 226, 207);
+    color: rgb(49, 89, 81);
+  }
+
+  .blue {
+    background-color: rgb(160, 219, 254);
+    color: rgb(49, 89, 81);
+  }
+
+  .pink {
+    background-color: rgb(229, 185, 241);
+    color: rgb(81, 62, 86);
+  }
+
+  .shrink {
+    font-size: 25px;
+  }
+
+  #logo {
+    animation: fill 0.5s ease forwards 3.5s;
+  }
+  
+  #logo path:nth-child(1) {
+    stroke-dasharray: 581.2537231445312;
+    stroke-dashoffset: 581.2537231445312;
+    animation: line-anim 2s ease forwards;
+  }
+  
+  #logo path:nth-child(2) {
+    stroke-dasharray: 246.0243682861328;
+    stroke-dashoffset: 246.0243682861328;
+    animation: line-anim 2s ease forwards 0.3s;
+  }
+  
+  #logo path:nth-child(3) {
+    stroke-dasharray: 515.2633056640625;
+    stroke-dashoffset: 515.2633056640625;
+    animation: line-anim 2s ease forwards 0.6s;
+  }
+  
+  #logo path:nth-child(4) {
+    stroke-dasharray: 418.8187255859375;
+    stroke-dashoffset: 418.8187255859375;
+    animation: line-anim 2s ease forwards 0.9s;
+  }
+  
+  #logo path:nth-child(5) {
+    stroke-dasharray: 314.9529724121094;
+    stroke-dashoffset: 314.9529724121094;
+    animation: line-anim 2s ease forwards 1.2s;
+  }
+  
+  #logo path:nth-child(6) {
+    stroke-dasharray: 433.77264404296875;
+    stroke-dashoffset: 433.77264404296875;
+    animation: line-anim 2s ease forwards 1.5s;
+  }
+  
+  #logo path:nth-child(7) {
+    stroke-dasharray: 422.50054931640625;
+    stroke-dashoffset: 422.50054931640625;
+    animation: line-anim 2s ease forwards 1.8s;
+  }
+  
+  @keyframes line-anim {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: black;
+    }
+  }
+
+  .fade-in {
+  opacity: 0;
+  animation: fadeInOpacity 2.5s ease forwards 3.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+

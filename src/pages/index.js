@@ -9,7 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Preston/>
     
-    <div className="headerLanding fade-in">
+    <div className="headerLanding landing-fade-in">
       <Nav />
     </div>
   </>

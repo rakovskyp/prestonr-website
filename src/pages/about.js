@@ -45,7 +45,7 @@ const About = (props) => {
     return (
         
         <Layout>
-    
+        <div className='fade-in'>
             <h1 className='title shrink'>about</h1>
 
             <p>I'm Preston Rakovsky. </p>
@@ -74,7 +74,7 @@ const About = (props) => {
             <table>
              {jobs.map((job, i) => <Job key={i} job={job} id={i}/>).reverse()}
             </table>
-            
+        </div>
         </Layout>
     )
 }

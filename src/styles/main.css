@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
 
   .aboutTime {
@@ -13,6 +14,13 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+  }
+
+  .links {
+    text-decoration: none;
+    text-decoration-style: inital;
+    color: black;
+    font-family: 'Playfair Display', serif;
   }
 
   .headerPreston {
@@ -72,7 +80,6 @@
   }
 
   .projectContainer {
-    /* background-color: green; */
     margin: 0 auto;
     max-width: 560px;
     padding: 0 2.0875rem 1.45rem;
@@ -113,6 +120,16 @@
   .pink {
     background-color: rgb(229, 185, 241);
     color: rgb(81, 62, 86);
+  }
+
+  .purple {
+    background-color: rgb(138, 95, 148);
+    color: rgb(81, 48, 94);
+  }
+
+  .gold {
+    background-color: rgb(219, 204, 107);
+    color: rgb(112, 106, 70);
   }
 
   .shrink {
@@ -180,7 +197,7 @@
     }
   }
 
-  .fade-in {
+  .landing-fade-in {
   opacity: 0;
   animation: fadeInOpacity 2.5s ease forwards 3.5s;
 }
@@ -194,3 +211,58 @@
 	}
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

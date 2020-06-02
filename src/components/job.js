@@ -5,7 +5,7 @@ const Job = (props) => {
 
     return (
         <tr align='center'>
-            <td>
+            <td align='center'> 
                 <img className='workedLogo' src={logo} />
             </td>
             <td className='aboutText'>

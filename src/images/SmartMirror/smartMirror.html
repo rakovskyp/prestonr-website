@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Smart Mirror</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./projectInfo.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300|Roboto+Slab:300,400|Work+Sans:200,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+
+    </head>
+    <body>
+
+        <div class="container">
+
+                <img class="fullWidth" src="smartMirrorCov.png"></img>
+
+            <p class="summary"> The Smart Mirror is a mirror with a futuristic display of widgets that includes the time, weather, 
+                week-long forecasts, and upcoming events synced with Google Calendar. </p>
+            <!-- <p class="summary">
+                At the end of my freshman year I decided that my dorm room needed some upgrading and
+                my newfound computer science skills needed to be tested.
+            </p> -->
+
+
+            <h4>How it works</h4>
+
+            <img class="fullWidth" src="smpulledapart.png"></img>
+            <p>
+                A two-way mirror, commonly known for its use as one-way glass in interrogation rooms, reflects like a normal mirror in the absence of light.
+                 However, when white light is pressed directly against the glass, it is able to shine through. 
+            </p>
+
+            <p>
+                With this in mind, I developed a software to create the Smart Mirror. 
+                Running on a Raspberry Pi, the program displays widgets on a monitor in the form of white text with a black background. 
+            </p>
+            <p>
+                By holding the monitor up with wood and running the software behind the mirror and frame, I created
+                a "smart" mirror effect. 
+            </p>
+            <h4>Design Process</h4>
+            <p>I divided the project into four stages:
+            </p>
+            <ol class="list">
+                <li>Design</li>
+                <li>Development</li>
+                <li>Woodwork</li>
+                <li>Integration</li>
+            </ol>
+            <h4>1. Design</h4>
+
+            <p>
+                I first had to decide what features I wanted to implement into the Smart Mirror. 
+                To do this, I listed things that would make my morning more efficient by having
+                 all of the information in one place to reference:
+
+            </p>
+                <ul>
+                    <li>Checking the time</li>
+                    <li>Looking at the weather and temperature outside</li>
+                    <li>Going through my calendar to see what meetings/events I have for the day</li>
+                </ul> 
+                <p>The last thing most people can do in the morning is waste time, 
+                    as they rush to their first class or to catch the train to their commute. 
+                    Having all of this information accessible at a quick glance streamlines
+                     their mornings exponentially. 
+                </p>
+
+                <p>
+                        Using Photoshop, I designed a general outline of
+                         what the software would look like, with a rough idea of how it would work.
+                </p>
+
+                <img src="pics/diagram.png" class="fullWidth"></img>
+            
+                <h4>2. Development</h4>
+                
+                <p> Initially, I struggled in deciding whether to develop the software in Java 
+                    or Javascript. I decided on Javascript because the front end of this application 
+                    would be more smoothly designed with HTML and CSS in a locally hosted browser.
+                     Additionally, the front end would be much easier and more versatile in terms 
+                     of design.
+                </p>
+
+                <p>
+                    The application would run on my Raspberry Pi's Raspbian OS.
+                </p>
+
+                <p>To generate the weather data, I fetch JSON data from a weather API, 
+                    known as Dark Sky API. In my Javascript code, I parse the JSON data 
+                    into an invisible table that is displayed on the right side of my mirror.
+                </p>
+                <!-- <p>One of the things I learned when making this project is that there's just about a library
+                out there that exists for anything that you need in programming.
+                </p> -->
+
+                <h4>3. Woodwork</h4>
+                <p>
+                        In order to maintain the mirror look, I had to make two frames: one for the inside and one for the outside
+                </p>
+                <p>
+                        The outside frame was the front frame that was visibile to everyone.
+                         This was to emulate the actual mirror frame appearance.
+                </p>   
+                <p>
+                        The inside frame was hidden and its purpose was to hold the mirror in place.
+                 </p>
+
+                <img src="./pics/spraypaint.png" class="fullWidth"></img>
+                <p>
+                        After gluing and nailing the wood together, 
+                        I spray-painted the frame black, as seen in the above picture.
+                </p>
+                <p> 
+                        I then glued a blackout curtain to the bottom half of the frame to ensure that, 
+                        in the case of leakage of light from the monitor, the mirror would still remain 
+                        perfectly reflective.
+                </p>
+
+                <h4>4. Integration</h4>
+        
+                <p>In order to bring the "magic" to the mirror, I had to actually install the Raspberry Pi into the 
+                    mirror. </p>
+
+                <p>I plugged in the necessary wires and connected everything. 
+                    However, one issue I ran into was that the Raspberry Pi was very processor dependent, 
+                    so it would overheat a few minutes after running. To fix this, I installed a heat sinks 
+                    on the processor.
+                </p>
+
+        
+
+                <img src="pics/backSM.png" class="fullWidth"></img>
+
+
+                <img src="pics/finalprod.png" class="fullWidth"></img>
+            
+            <p>Overall, I am thrilled with the end result of the Smart Mirror. 
+                I have not experienced any glitches with it, and I use it every day. 
+                Additionally, I accomplished all the goals I set out to, namely utilizing my newfound 
+                programming skills, following through and sticking with a project to completion, and contributing 
+                a great piece of furniture to my college living room! 
+            </p>
+
+            <p>
+                    In the future, I would like to consider implementing a motion sensor for the mirror to turn on whenever I walk by. 
+                    I would also like to possibly integrate the abilities of Amazon Alexa into the Smart Mirror as well.
+            </p>
+            </div>
+
+        
+
+        <script src="" async defer></script>
+    </body>
+</html>

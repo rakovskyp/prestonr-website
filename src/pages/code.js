@@ -1,10 +1,21 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import styled from "styled-components";
 
 import Layout from '../components/layout'
 import testphoto from '../images/dellx.png'
 import smartMirror from '../images/smartMirrorCov.png'
 import websiteScreenshot from '../images/websiteScreenshot.png'
 import ct from '../images/ct.png'
+
+const StyledLink = styled(props => <Link {...props} />)`
+text-decoration: none;
+text-decoration-color: initial;
+text-decoration-style: initial;
+color: black;
+font-family: georgia, serif;
+`;
+
 
 const Code = (props) => {
     
@@ -14,6 +25,7 @@ const Code = (props) => {
                 <h1 className='title shrink'>code</h1>
 
                 <div className="projectContainer">
+                    <StyledLink to='/projects/smartMirror'>
                     <div className="project">
                             <h3>Smart Mirror</h3>
                             <p><em>2019</em></p>
@@ -30,6 +42,7 @@ const Code = (props) => {
                             <span className='skill pink'>GraphQL</span> */}
                             <span className='skill purple'>Javascript</span>
                     </div>
+                    </StyledLink>
 
                     <div className="project">
                             <h3>Chicken Tinder</h3>

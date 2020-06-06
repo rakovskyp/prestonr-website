@@ -1,0 +1,43 @@
+* {
+    font-size: 1.1rem;
+}
+.title {
+    margin-top: 5%;
+}
+
+.summary {
+    margin-top: 30px;
+    font-size:1.3rem;
+}
+
+h4 {
+    padding: 12px 0px;
+}
+
+p {
+    font-size: 1.1rem;
+    background-color: 303337;
+}
+
+.sm {
+    height: auto;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    width: 40em;
+}
+
+.fullWidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ol.list {
+    font-size: 1.1rem;
+}

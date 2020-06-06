@@ -47,19 +47,21 @@ const Code = (props) => {
                             {/* <span className='skill pink'>GraphQL</span> */}
                     </div>
 
-                    <div className="project">
-                            <h3>Personal Website</h3>
-                            <p><em>2020</em></p>
+                    <a href='https://github.com/rakovskyp/prestonr-website' target='_blank'>
+                        <div className="project">
+                                <h3>Personal Website</h3>
+                                <p><em>2020</em></p>
 
-                            <img src={websiteScreenshot}></img>
-                            <p>This website that I made when I was bored in quarantine.</p>
+                                <img src={websiteScreenshot}></img>
+                                <p>This website that I made when I was bored in quarantine.</p>
 
-                            <span className='skill blue'>React</span>
-                            <span className='skill gold'>GatsbyJS</span>
-                            {/* <span className='skill red'>Firebase</span> */}
-                            {/* <span className='skill green'>Google Cloud Platform</span> */}
-                            {/* <span className='skill pink'>GraphQL</span> */}
-                    </div>
+                                <span className='skill blue'>React</span>
+                                <span className='skill gold'>GatsbyJS</span>
+                                {/* <span className='skill red'>Firebase</span> */}
+                                {/* <span className='skill green'>Google Cloud Platform</span> */}
+                                {/* <span className='skill pink'>GraphQL</span> */}
+                        </div>
+                    </a>
                 </div>
             </div>
         </Layout>

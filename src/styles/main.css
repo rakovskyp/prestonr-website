@@ -37,8 +37,8 @@
   }
 
   .headerLanding {
-    top: 55.5%;
-    left: 52%;
+    top: 54.5%;
+    left: 51%;
     position: absolute;
     transform: translate(-50%, -50%);
   }
@@ -95,6 +95,17 @@
     margin-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .3s;
+    color: black;
+    /* text-decoration: none;
+    text-decoration-color: initial;
+    text-decoration-style: initial; */
+
+  }
+
+  a {
+    text-decoration: none;
+    text-decoration-color: initial;
+    text-decoration-style: initial;
   }
 
   .indent {

@@ -19,7 +19,7 @@ const About = (props) => {
         },
         {
             place: 'Dell',
-            position: 'Cybersecurity Analyst Intern',
+            position: 'Product and Application Security Intern',
             logo: logoDell,
             link: 'https://www.dell.com/en-us',
             start: 'jun 2020',

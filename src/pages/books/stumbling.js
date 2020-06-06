@@ -16,26 +16,22 @@ const StyledLink = styled(props => <Link {...props} />)`
   font-family: georgia, serif;
 `
 
-const Moonwalking = props => {
+const Stumbling = props => {
   return (
     <Layout>
       <div className="fade-in">
-        <h1 className="title shrink">moonwalking with einstein</h1>
+        <h1 className="title shrink">stumbling on happiness</h1>
         <StyledLink to="/books">
           <h4>back</h4>
         </StyledLink>
         <h4>main takeaways</h4>
-        <blockquote className="quote">
+        {/* <blockquote className="quote">
           "Monotony collapses time; novelty unfolds it."
-        </blockquote>
+        </blockquote> */}
         <p className="indent">
-          Falling into the habit of doing the same thing every day leads to our
-          days literally blending together in our memory. The problem with this
-          is that it literally decreases our psychological sense of time. In a
-          way, this makes it possible to live a long and healthy <em>short</em> life
-          and a short and fun <em>long</em> life.
+          Work in progress.
         </p>
-        <p className="indent">
+        {/* <p className="indent">
           In order to combat this, we need to increase the amount of "memory
           landmarks" in our minds. By switching up routines, saying yes more
           often, and just trying new things, it's posisble to increase your psychological sense
@@ -53,11 +49,11 @@ const Moonwalking = props => {
           specific memories in general. I think after reading this book and this quote I really 
           started valuing the intentionality of trying to remember happy moments. They're easy to forget, 
           and once you do, you don't get it back.
-        </p>
+        </p> */}
         
       </div>
     </Layout>
   )
 }
 
-export default Moonwalking
+export default Stumbling

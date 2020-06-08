@@ -7,6 +7,7 @@ import testphoto from '../images/dellx.png'
 import smartMirror from '../images/smartMirrorCov.png'
 import websiteScreenshot from '../images/websiteScreenshot.png'
 import ct from '../images/ct.png'
+import booksGif from '../images/booksGif.gif'
 
 const StyledLink = styled(props => <Link {...props} />)`
 text-decoration: none;
@@ -75,6 +76,21 @@ const Code = (props) => {
                                 {/* <span className='skill pink'>GraphQL</span> */}
                         </div>
                     </a>
+
+                    <div className="project">
+                                <h3>Reading List</h3>
+                                <p><em>2020</em></p>
+
+                                <img src={booksGif}></img>
+                                <p>Reading list I made backed by MongoDB which utilized 
+                                    GraphQL queries to send and alter data.</p>
+
+                                <span className='skill blue'>React</span>
+                                {/* <span className='skill gold'>GatsbyJS</span> */}
+                                {/* <span className='skill red'>Firebase</span> */}
+                                {/* <span className='skill green'>Google Cloud Platform</span> */}
+                                <span className='skill pink'>GraphQL</span>
+                        </div>
                 </div>
             </div>
         </Layout>

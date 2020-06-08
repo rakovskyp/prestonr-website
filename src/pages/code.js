@@ -78,7 +78,7 @@ const Code = (props) => {
                     </a>
                     <a href='https://github.com/rakovskyp/graphql-reading-list' target='_blank'>
                         <div className="project">
-                                    <h3>Reading List</h3>
+                                    <h3>GraphQL Reading List</h3>
                                     <p><em>2020</em></p>
 
                                     <img src={booksGif}></img>

@@ -154,7 +154,12 @@
 
   .pink {
     background-color: rgb(229, 185, 241);
-    color: rgb(81, 62, 86);
+    color: rgb(53, 28, 59)
+  }
+
+  .gray {
+    background-color: rgb(190, 190, 190);
+    color: rgb(87, 87, 87);
   }
 
   .purple {

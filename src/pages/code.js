@@ -76,22 +76,24 @@ const Code = (props) => {
                                 {/* <span className='skill pink'>GraphQL</span> */}
                         </div>
                     </a>
+                    <a href='https://github.com/rakovskyp/graphql-reading-list' target='_blank'>
+                        <div className="project">
+                                    <h3>Reading List</h3>
+                                    <p><em>2020</em></p>
 
-                    <div className="project">
-                                <h3>Reading List</h3>
-                                <p><em>2020</em></p>
+                                    <img src={booksGif}></img>
+                                    <p>Reading list I made backed by MongoDB which utilized 
+                                        GraphQL queries to send and alter data.</p>
 
-                                <img src={booksGif}></img>
-                                <p>Reading list I made backed by MongoDB which utilized 
-                                    GraphQL queries to send and alter data.</p>
-
-                                <span className='skill blue'>React</span>
-                                {/* <span className='skill gold'>GatsbyJS</span> */}
-                                {/* <span className='skill red'>Firebase</span> */}
-                                {/* <span className='skill green'>Google Cloud Platform</span> */}
-                                <span className='skill pink'>GraphQL</span>
+                                    <span className='skill blue'>React</span>
+                                    {/* <span className='skill gold'>GatsbyJS</span> */}
+                                    {/* <span className='skill red'>Firebase</span> */}
+                                    <span className='skill pink'>GraphQL</span>
+                                    <span className='skill gray'>mongoDB</span>
                         </div>
+                    </a>
                 </div>
+                
             </div>
         </Layout>
     )

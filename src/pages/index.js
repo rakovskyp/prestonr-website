@@ -5,8 +5,11 @@ import Preston from '../components/preston'
 import Nav from '../components/nav'
 
 const IndexPage = () => (
+
   <>
-    <SEO title="Home" />
+    <SEO 
+    title="Home"
+    />
     <Preston/>
     
     <div className="headerLanding landing-fade-in">

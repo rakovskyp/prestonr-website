@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import styled from "styled-components";
 
 import Layout from '../components/layout'
-import testphoto from '../images/dellx.png'
+import SEO from '../components/seo'
 import smartMirror from '../images/smartMirrorCov.png'
 import websiteScreenshot from '../images/websiteScreenshot.png'
 import ct from '../images/ct.png'
@@ -22,6 +22,7 @@ const Code = (props) => {
     
     return (
         <Layout>
+            <SEO title="Code" />
             <div className='fade-in'>
                 <h1 className='title shrink'>code</h1>
 

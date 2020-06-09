@@ -1,12 +1,14 @@
 import React from "react"
 
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 
 const Contact = (props) => {
 
     return (
         <Layout>
+            <SEO title="Contact" />
             <div className='fade-in'>
                 <h1 className='title shrink'>contact</h1>
                 <p>Wanna grab a coffee?</p>

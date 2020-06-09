@@ -3,6 +3,8 @@ module.exports = {
     title: `Preston Rakovsky`,
     description: `Preston Rakovsky's personal website. Made with React and Gatsby.`,
     author: `Preston Rakovsky`,
+    url: 'https://prestonr.xyz',
+    image: './src/images/preston-icon.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +17,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../../components/layout"
+import SEO from '../../components/seo'
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -25,6 +26,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 const SmartMirror = props => {
   return (
     <Layout>
+      <SEO title="Smart Mirror" />
       <div className="fade-in smart-mirror">
         {/* <h1 className="title shrink">smart mirror</h1> */}
         <StyledLink to="/code">

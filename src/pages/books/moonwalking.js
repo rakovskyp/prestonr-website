@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../../components/layout"
+import SEO from '../../components/seo'
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -19,6 +20,8 @@ const StyledLink = styled(props => <Link {...props} />)`
 const Moonwalking = props => {
   return (
     <Layout>
+
+      <SEO title="Moonwalking with Einstein" />
       <div className="fade-in">
         <h1 className="title shrink">moonwalking with einstein</h1>
         <StyledLink to="/books">

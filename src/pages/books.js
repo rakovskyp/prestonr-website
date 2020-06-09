@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import styled from "styled-components";
 import { Link } from 'gatsby';
 
@@ -14,6 +15,7 @@ font-family: georgia, serif;
 const Books = (props) => {
     return (
         <Layout>
+            <SEO title="Books" />
             <div className='fade-in'>
               <h1 className='title shrink'>books</h1>
               <p>Here are some of the main ideas and takeaways that I took from several books that I've read.

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/layout'
 import Job from '../components/job'
+import SEO from '../components/seo'
 
 import logoING from '../images/ing.png'
 import logoDell from '../images/dell.png'
@@ -45,6 +46,7 @@ const About = (props) => {
     return (
         
         <Layout>
+        <SEO title="About" />
         <div className='fade-in'>
             <h1 className='title shrink'>about</h1>
 

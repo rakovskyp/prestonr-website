@@ -8,7 +8,7 @@ const IndexPage = () => (
 
   <>
     <SEO 
-    title="Home"
+    title="Preston Rakovsky | Home"
     />
     <Preston/>
     

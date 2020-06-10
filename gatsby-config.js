@@ -4,7 +4,8 @@ module.exports = {
     description: `Preston Rakovsky's personal website. Made with React and Gatsby.`,
     author: `Preston Rakovsky`,
     url: 'https://prestonr.xyz',
-    image: './src/images/preston-icon.png'
+    image: './src/images/preston-icon.png',
+    siteUrl: 'https://prestonr.xyz'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -17,7 +18,68 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-mdx`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      
+        exclude: [`/search`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+        }`,
+        resolveSiteUrl: ({site}) => {
+          //Alternativly, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+          return site.siteMetadata.siteUrl
+        },
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.nodes.map(node => {
+            if(node.path.startsWith('/code/')) {
+              return {
+                url: `${site.siteMetadata.siteUrl}${node.path}`,
+                changefreq: `monthly`,
+                priority: 0.9,
+              }
+            } else if (node.path.startsWith('/about/')){
+              return {
+                url: `${site.siteMetadata.siteUrl}${node.path}`,
+                changefreq: `yearly`,
+                priority: 0.7,
+              }
+            } else if (node.path.startsWith('/books/')) {
+              return {
+                url: `${site.siteMetadata.siteUrl}${node.path}`,
+                changefreq: `weekly`,
+                priority: 0.5,
+              }
+            } else if (node.path.startsWith('/contact/')) {
+              return {
+                url: `${site.siteMetadata.siteUrl}${node.path}`,
+                changefreq: `never`,
+                priority: 0.7,
+              }
+            }
+            else {
+              return {
+                url: `${site.siteMetadata.siteUrl}${node.path}`,
+                changefreq: `yearly`,
+                priority: 1.0,
+              }
+            }
+          })
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

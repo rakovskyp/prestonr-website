@@ -25,7 +25,7 @@ export const SEO = ({ description, keywords, title, image, url, author }) => {
           "Preston Rakovsky",
           "Preston",
           "Rakovsky",
-          "Personal Website",
+          "Personal Website"
         ]
         return (
           <Helmet
@@ -114,7 +114,7 @@ const detailsQuery = graphql`
 //         lang,
 //       }}
 //       title={title}
-//       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      // titleTemplate={`%s | ${site.siteMetadata.title}`}
 // meta={[
 //   {
 //     name: `description`,

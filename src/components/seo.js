@@ -40,6 +40,10 @@ export const SEO = ({ description, keywords, title, image, url, author }) => {
                 content: title,
               },
               {
+                property: `og:image`,
+                content: `https://prestonr.xyz/icons/icon-384x384.png?v=6169ddc33599dc420ddda80d2986cc2b`,
+              },
+              {
                 property: `og:description`,
                 content: metaDescription,
               },

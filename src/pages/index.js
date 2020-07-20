@@ -9,6 +9,7 @@ const IndexPage = () => (
   <>
     <SEO 
     title="Preston Rakovsky | Home"
+    image="https://prestonr.xyz/icons/icon-72x72.png?v=6169ddc33599dc420ddda80d2986cc2b"
     />
     <Preston/>
     

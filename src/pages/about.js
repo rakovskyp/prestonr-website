@@ -52,7 +52,7 @@ const About = (props) => {
 
             <p>I'm Preston Rakovsky. </p>
 
-            <p> I'm a Cybersecurity and Business major at Northeastern University. 
+            <p> I'm a Computer Science and Business major at Northeastern University. 
 
                 In my spare time, I really love to build things, work out, read, and hear your controversial opinions.
 

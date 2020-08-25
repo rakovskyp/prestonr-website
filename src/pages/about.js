@@ -20,7 +20,7 @@ const About = (props) => {
         },
         {
             place: 'Dell',
-            position: 'Product and Application Security Intern',
+            position: 'Software Development Intern',
             logo: logoDell,
             link: 'https://www.dell.com/en-us',
             start: 'jun 2020',

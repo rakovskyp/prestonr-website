@@ -45,7 +45,7 @@ const Code = (props) => {
                             <span className='skill purple'>Javascript</span>
                     </div>
                     </StyledLink>
-
+                <a href='https://github.com/rakovskyp/Chicken-Tinder' target='_blank'>
                     <div className="project">
                             <h3>Chicken Tinder</h3>
                             <p><em>2020</em></p>
@@ -61,7 +61,7 @@ const Code = (props) => {
                             <span className='skill green'>Google Cloud Platform</span>
                             {/* <span className='skill pink'>GraphQL</span> */}
                     </div>
-
+                    </a>
                     <a href='https://github.com/rakovskyp/prestonr-website' target='_blank'>
                         <div className="project">
                                 <h3>Personal Website</h3>

@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 
 import logoING from '../images/ing.png'
 import logoDell from '../images/dell.png'
+import logoPolo from '../images/poloniex.png'
 
 const About = (props) => {
 
@@ -20,12 +21,20 @@ const About = (props) => {
         },
         {
             place: 'Dell',
-            position: 'Software Development Intern',
+            position: 'Software Engineer Intern',
             logo: logoDell,
             link: 'https://www.dell.com/en-us',
             start: 'jun 2020',
-            end: 'current'
+            end: 'jul 2020'
         },
+        {
+            place: 'Poloniex',
+            position: 'Software Engineer Co-op',
+            logo: logoPolo,
+            link: 'https://poloniex.com/',
+            start: 'aug 2020',
+            end: 'current'
+        }
     ]
 
     const [age, setAge] = React.useState(0);
@@ -62,10 +71,10 @@ const About = (props) => {
             
             <p>Fast facts: </p>
             <ul>
-                <li>Favorite TV Show: Bojack Horseman</li>
-                <li>Late night craving: Sushi</li>
+                <li>Favorite show: Bojack Horseman</li>
+                <li>Favorite food: Sushi</li>
                 <li>Go to drink: Peach Snapple Iced Tea</li>
-                <li>Current Age: {age}</li>
+                <li>Current age: {age}</li>
                 <li>Location: Rockville Centre, NY</li>
             </ul>
 

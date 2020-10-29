@@ -98,6 +98,15 @@ module.exports = {
         trackingId: 'UA-148761840-1'
       }
     },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-WNKM559',
+        includeInDevelopment: true,
+        trackingId: 'GTM-WNKM559',
+        defaultDataLayer: { platform: "gatsby" },
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

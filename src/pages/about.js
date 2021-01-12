@@ -33,7 +33,7 @@ const About = (props) => {
             logo: logoPolo,
             link: 'https://poloniex.com/',
             start: 'aug 2020',
-            end: 'current'
+            end: 'dec 2020'
         }
     ]
 
@@ -69,7 +69,7 @@ const About = (props) => {
                 constantly learning and growing in one way or another.
             </p>
             
-            <p>Fast facts: </p>
+            <p>Stats: </p>
             <ul>
                 <li>Favorite show: Bojack Horseman</li>
                 <li>Favorite food: Sushi</li>

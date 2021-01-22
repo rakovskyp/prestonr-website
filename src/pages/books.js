@@ -23,7 +23,7 @@ const Books = (props) => {
                   seems intuitive and obvious tends to be overlooked and is just easy to forget so
                   it's helpful to have a little reminder.
               </p>
-              <p>Currently reading: How to Win Friends and Influence People by Dale Carnegie </p>
+              <p>Currently reading: The Upstarts by Brad Stone</p>
               <StyledLink to='./books/moonwalking'><h4>Moonwalking with Einstein by Joshua Foer</h4></StyledLink>
               <StyledLink to='./books/stumbling'><h4>Stumbling on Happiness by Daniel Gilbert</h4></StyledLink>
             </div>

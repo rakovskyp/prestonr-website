@@ -75,7 +75,7 @@ const About = (props) => {
                 <li>Favorite food: Sushi</li>
                 <li>Go to drink: Peach Snapple Iced Tea</li>
                 <li>Current age: {age}</li>
-                <li>Location: Rockville Centre, NY</li>
+                <li>Location: Boston, MA</li>
             </ul>
 
             <p>

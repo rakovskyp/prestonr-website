@@ -6,6 +6,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import smartMirror from '../images/smartMirrorCov.png'
 import websiteScreenshot from '../images/websiteScreenshot.png'
+import pipeline from '../images/pipeline.jpeg'
+import pipelineNoText from '../images/pipelineNoText.jpeg'
 import ct from '../images/ct.png'
 import booksGif from '../images/booksGif.gif'
 
@@ -61,6 +63,22 @@ const Code = (props) => {
                             <span className='skill green'>Google Cloud Platform</span>
                             {/* <span className='skill pink'>GraphQL</span> */}
                     </div>
+                    </a>
+                    <a href={pipelineNoText} target='_blank'>
+                        <div className="project">
+                                <h3>Analytics Pipeline & Dashboard</h3>
+                                <p><em>2021</em></p>
+
+                                <img src={pipeline}></img>
+                                <p>Automated ETL Spark pipeline for transferring and querying Google Analytics data into Tableau dashboard.</p>
+
+                                <span className='skill blue'>Spark</span>
+                                <span className='skill gray'>SQL</span>
+                                <span className='skill red'>EC2</span>
+                                <span className='skill gold'>EMR</span>
+                                <span className='skill pink'>S3</span>
+                                <span className='skill gray'>Python</span>
+                        </div>
                     </a>
                     <a href='https://github.com/rakovskyp/prestonr-website' target='_blank'>
                         <div className="project">

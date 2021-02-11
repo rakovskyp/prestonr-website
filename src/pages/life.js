@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageGrid from '../components/imagegrid';
 import Layout from '../components/layout'
-import Modal from '../components/Modal';
+import Modal from '../components/modal';
 import SEO from '../components/seo'
 
 const Life = (props) => {

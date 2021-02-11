@@ -7,5 +7,6 @@
 <url> <loc>https://prestonr.xyz/code/</loc> <changefreq>monthly</changefreq> <priority>0.9</priority> </url>
 <url> <loc>https://prestonr.xyz/contact/</loc> <changefreq>never</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prestonr.xyz/</loc> <changefreq>yearly</changefreq> <priority>1.0</priority> </url>
+<url> <loc>https://prestonr.xyz/life/</loc> <changefreq>yearly</changefreq> <priority>1.0</priority> </url>
 <url> <loc>https://prestonr.xyz/projects/smartMirror/</loc> <changefreq>yearly</changefreq> <priority>1.0</priority> </url>
 </urlset>

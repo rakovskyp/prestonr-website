@@ -17,6 +17,7 @@ import sophomore2 from '../mems/sophomore-2.jpg'
 import junior1 from '../mems/junior-1.jpg'
 import junior2 from '../mems/junior-2.jpg'
 import junior3 from '../mems/junior-3.jpg'
+import junior4 from '../mems/junior-4.png'
 
 
 
@@ -26,7 +27,7 @@ const ImageGrid = ({setSelectedImg}) => {
 
     const pictures = [
         highschool1, freshman1, freshman2, freshman3, freshman4, freshman5,
-        freshman6, freshman7, sophomore1, sophomore2, junior1, junior2, junior3
+        freshman6, freshman7, sophomore1, sophomore2, junior1, junior2, junior3, junior4
     ].reverse()
 
     return (

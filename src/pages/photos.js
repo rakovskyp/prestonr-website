@@ -4,14 +4,15 @@ import Layout from '../components/layout'
 import Modal from '../components/modal';
 import SEO from '../components/seo'
 
-const Life = (props) => {
+const Photos = (props) => {
 
     const [selectedImg, setSelectedImg] = React.useState(null)
 
     
     return (
         <Layout>
-            <SEO title="Highlights" />
+            <SEO title="Photos" />
+            <h1 className='title shrink fade-in'>photos</h1>
             <ImageGrid setSelectedImg={setSelectedImg}/>
             { selectedImg && <Modal selectedImg={selectedImg}
             setSelectedImg={setSelectedImg}
@@ -20,4 +21,4 @@ const Life = (props) => {
     )
 }
 
-export default Life;
+export default Photos;

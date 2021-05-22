@@ -18,6 +18,12 @@ import junior1 from '../mems/junior-1.jpg'
 import junior2 from '../mems/junior-2.jpg'
 import junior3 from '../mems/junior-3.jpg'
 import junior4 from '../mems/junior-4.png'
+import junior5 from '../mems/junior-5.png'
+import junior6 from '../mems/junior-6.png'
+import junior7 from '../mems/junior-7.png'
+import junior8 from '../mems/junior-8.jpg'
+import junior9 from '../mems/junior-9.png'
+import junior10 from '../mems/junior-10.jpg'
 
 
 
@@ -27,7 +33,8 @@ const ImageGrid = ({setSelectedImg}) => {
 
     const pictures = [
         highschool1, freshman1, freshman2, freshman3, freshman4, freshman5,
-        freshman6, freshman7, sophomore1, sophomore2, junior1, junior2, junior3, junior4
+        freshman6, freshman7, sophomore1, sophomore2, junior1, junior2, junior3, junior4, junior5, 
+        junior6, junior7, junior8, junior9, junior10
     ].reverse()
 
     return (

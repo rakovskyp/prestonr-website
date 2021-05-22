@@ -50,7 +50,7 @@ const Code = (props) => {
                 <a href='https://github.com/rakovskyp/Chicken-Tinder' target='_blank'>
                     <div className="project">
                             <h3>Chicken Tinder</h3>
-                            <p><em>2020</em></p>
+                            <p><em>2021</em></p>
 
                             <img src={ct}></img>
                             <p>Swipe on your local restaurants with a friend – where you match is where you eat! 

@@ -6,7 +6,8 @@ import SEO from '../components/seo'
 
 import logoING from '../images/ing.png'
 import logoDell from '../images/dell.png'
-import logoPolo from '../images/poloniex.png'
+import logoPolo from '../images/polo_logo.png'
+import logoDatadog from '../images/datadog.png'
 
 const About = (props) => {
 
@@ -29,11 +30,19 @@ const About = (props) => {
         },
         {
             place: 'Poloniex',
-            position: 'Software Engineer Co-op',
+            position: 'Software Engineer Intern',
             logo: logoPolo,
             link: 'https://poloniex.com/',
             start: 'aug 2020',
             end: 'dec 2020'
+        },
+        {
+            place: 'Datadog',
+            position: 'Software Engineer Intern',
+            link: 'https://www.datadoghq.com/',
+            logo: logoDatadog,
+            start: '',
+            end: ''
         }
     ]
 
@@ -63,7 +72,7 @@ const About = (props) => {
 
             <p> I'm a Computer Science and Business major at Northeastern University. 
 
-                In my spare time, I really love to build things, work out, read, and hear your controversial opinions.
+                In my spare time, I really interested in building things, working out, and reading.
 
                 If I'm passionate about anything, it's learning. Whether through books, computer science projects, or friends – I'm 
                 constantly learning and growing in one way or another.
@@ -75,7 +84,7 @@ const About = (props) => {
                 <li>Favorite food: Sushi</li>
                 <li>Go to drink: Peach Snapple Iced Tea</li>
                 <li>Current age: {age}</li>
-                <li>Location: Boston, MA</li>
+                <li>Location: Rockville Centre, NY</li>
             </ul>
 
             <p>

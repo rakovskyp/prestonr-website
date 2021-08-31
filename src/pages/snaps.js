@@ -8,11 +8,10 @@ const Photos = (props) => {
 
     const [selectedImg, setSelectedImg] = React.useState(null)
 
-    
     return (
         <Layout>
             <SEO title="Photos" />
-            <h1 className='title shrink fade-in'>photos</h1>
+            <h1 className='title shrink fade-in'>snapshots of fun stuff I want to remember</h1>
             <ImageGrid setSelectedImg={setSelectedImg}/>
             { selectedImg && <Modal selectedImg={selectedImg}
             setSelectedImg={setSelectedImg}

@@ -23,6 +23,18 @@ import junior7 from '../mems/junior-7.png'
 import junior8 from '../mems/junior-8.jpg'
 import junior9 from '../mems/junior-9.png'
 import junior10 from '../mems/junior-10.jpg'
+import junior11 from '../mems/junior-11.png'
+
+import hawaii0 from '../mems/hawaii-0.png'
+import hawaii1 from '../mems/hawaii-1.png'
+import hawaii2 from '../mems/hawaii-2.png'
+import hawaii3 from '../mems/hawaii-3.png'
+import hawaii4 from '../mems/hawaii-4.png'
+import hawaii5 from '../mems/hawaii-5.png'
+import hawaii6 from '../mems/hawaii-6.png'
+import hawaii7 from '../mems/hawaii-7.png'
+
+import senior1 from '../mems/senior-1.png'
 
 
 
@@ -31,9 +43,11 @@ import { motion } from 'framer-motion'
 const ImageGrid = ({setSelectedImg}) => {
 
     const pictures = [
-        highschool1, freshman1, freshman2, freshman3, freshman4, freshman5,
-        freshman6, freshman7, sophomore1, sophomore2, junior2, junior3, junior4, junior5, 
-        junior6, junior7, junior8, junior9, junior10
+        highschool1, freshman1, freshman2, freshman3, freshman4, freshman5, freshman6, freshman7, 
+        sophomore1, sophomore2, 
+        junior2, junior3, junior4, junior5, junior6, junior7, junior8, junior9, junior10, junior11,
+        hawaii0, hawaii1, hawaii2, hawaii3, hawaii4, hawaii5, hawaii6, hawaii7,
+        senior1
     ].reverse()
 
     return (

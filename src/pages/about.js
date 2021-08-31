@@ -72,7 +72,7 @@ const About = (props) => {
 
             <p> I'm a Computer Science and Business major at Northeastern University. 
 
-                In my spare time, I really interested in building things, working out, and reading.
+                In my spare time, I'm really interested in building things, working out, and reading.
 
                 If I'm passionate about anything, it's learning. Whether through books, computer science projects, or friends – I'm 
                 constantly learning and growing in one way or another.

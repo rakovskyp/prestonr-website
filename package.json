@@ -48,5 +48,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "minipass": "2.7.0"
   }
 }

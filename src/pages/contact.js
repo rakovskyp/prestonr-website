@@ -15,7 +15,7 @@ const Contact = (props) => {
                     <a className='links' href='mailto:rakovsky.p@northeastern.edu'>Email</a> / 
                     <a className='links'href='https://www.linkedin.com/in/rakovskypreston/' target='_blank'> LinkedIn</a> / 
                     <a className='links'href='https://github.com/rakovskyp' target='_blank'> Github</a> /
-                    <a className='links'href='https://prestonr.xyz/resume.pdf' target='_blank'> Resume</a>
+                    <a className='links'href='https://prestonr.xyz/latestresume.pdf' target='_blank'> Resume</a>
                 </p>
             </div>
         </Layout>

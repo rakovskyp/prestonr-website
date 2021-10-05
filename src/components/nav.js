@@ -16,7 +16,7 @@ font-family: georgia, serif;
 
 const urlAbout = '/about'
 const urlCode = '/code'
-const urlSnaps = '/snaps'
+const urlMems = '/mems'
 const urlContact = '/contact'
 
 const Nav = (props) => {
@@ -25,7 +25,7 @@ const Nav = (props) => {
             <StyledLink to={urlAbout}>about</StyledLink>
             <StyledLink to={urlCode}>code</StyledLink>
             <StyledLink to={urlContact}>contact</StyledLink>
-            <StyledLink to={urlSnaps}>snaps</StyledLink>
+            <StyledLink to={urlMems}>mems</StyledLink>
         </>
     )
 }

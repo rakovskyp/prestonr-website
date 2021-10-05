@@ -35,6 +35,7 @@ import hawaii6 from '../mems/hawaii-6.png'
 import hawaii7 from '../mems/hawaii-7.png'
 
 import senior1 from '../mems/senior-1.png'
+import senior2 from '../mems/senior-2.png'
 
 
 
@@ -47,7 +48,7 @@ const ImageGrid = ({setSelectedImg}) => {
         sophomore1, sophomore2, 
         junior2, junior3, junior4, junior5, junior6, junior7, junior8, junior9, junior10, junior11,
         hawaii0, hawaii1, hawaii2, hawaii3, hawaii4, hawaii5, hawaii6, hawaii7,
-        senior1
+        senior1, senior2
     ].reverse()
 
     return (

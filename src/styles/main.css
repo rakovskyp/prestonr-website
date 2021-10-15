@@ -78,6 +78,10 @@
     text-align: middle;
   }
 
+  strike {
+    font-size: 14px;
+  }
+
   .skill {
     font-family: Inconsolata, monospace;
     box-sizing: border-box;

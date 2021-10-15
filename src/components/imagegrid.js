@@ -36,8 +36,12 @@ import hawaii7 from '../mems/hawaii-7.png'
 
 import senior1 from '../mems/senior-1.png'
 import senior2 from '../mems/senior-2.png'
-
-
+import senior3 from '../mems/senior-3.png'
+import senior4 from '../mems/senior-4.png'
+import senior5 from '../mems/senior-5.png'
+import senior6 from '../mems/senior-6.jpg'
+import senior7 from '../mems/senior-7.png'
+import senior8 from '../mems/senior-8.png'
 
 import { motion } from 'framer-motion'
 
@@ -48,7 +52,7 @@ const ImageGrid = ({setSelectedImg}) => {
         sophomore1, sophomore2, 
         junior2, junior3, junior4, junior5, junior6, junior7, junior8, junior9, junior10, junior11,
         hawaii0, hawaii1, hawaii2, hawaii3, hawaii4, hawaii5, hawaii6, hawaii7,
-        senior1, senior2
+        senior1, senior2, senior3, senior4, senior5, senior6, senior7, senior8
     ].reverse()
 
     return (

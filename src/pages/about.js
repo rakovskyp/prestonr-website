@@ -41,8 +41,8 @@ const About = (props) => {
             position: 'Software Engineer Intern',
             link: 'https://www.datadoghq.com/',
             logo: logoDatadog,
-            start: '',
-            end: ''
+            start: 'may 2021',
+            end: 'dec 2021'
         }
     ]
 
@@ -82,9 +82,10 @@ const About = (props) => {
             <ul>
                 <li>Favorite show: Bojack Horseman</li>
                 <li>Favorite food: Sushi</li>
-                <li>Go to drink: Peach Snapple Iced Tea</li>
+                <li>Favorite book: We Learning Nothing by Tim Kreider <strike>Moonwalking with Einstein by Joshua Foer</strike></li>
+                <li>Go to drink: English Breakfast Tea <strike>Peach Snapple Iced Tea</strike></li>
                 <li>Current age: {age}</li>
-                <li>Location: Rockville Centre, NY</li>
+                <li>Location: Rockville Centre, NY <strike>Boston, MA</strike></li>
             </ul>
 
             <p>

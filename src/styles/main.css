@@ -82,6 +82,16 @@
     font-size: 14px;
   }
 
+  .ctLogo {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    height: 60%;
+  }
+
   .skill {
     font-family: Inconsolata, monospace;
     box-sizing: border-box;

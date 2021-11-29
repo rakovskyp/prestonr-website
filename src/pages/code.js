@@ -29,6 +29,23 @@ const Code = (props) => {
                 <h1 className='title shrink'>code</h1>
 
                 <div className="projectContainer">
+
+                    <StyledLink to='/papers/chickentinder'>
+                    <div className="project">
+                        <h3>Chicken Tinder</h3>
+                        <p><em>2021</em></p>
+
+                        <img src={ct}></img>
+                        <p>Swipe on your local restaurants with a friend – where you match is where you eat! 
+                            <em>Click here to meet</em>
+                        </p>
+
+                        <span className='skill blue'>React Native</span>
+                        <span className='skill red'>Firebase</span>
+                        <span className='skill green'>Google Cloud Platform</span>
+                    </div>
+                    </StyledLink>
+
                     <StyledLink to='/projects/smartMirror'>
                     <div className="project">
                             <h3>Smart Mirror</h3>
@@ -47,23 +64,6 @@ const Code = (props) => {
                             <span className='skill purple'>Javascript</span>
                     </div>
                     </StyledLink>
-                <a href='https://github.com/rakovskyp/Chicken-Tinder' target='_blank'>
-                    <div className="project">
-                            <h3>Chicken Tinder</h3>
-                            <p><em>2021</em></p>
-
-                            <img src={ct}></img>
-                            <p>Swipe on your local restaurants with a friend – where you match is where you eat! 
-                                <em> Work in progress.</em>
-                            </p>
-
-                            <span className='skill blue'>React Native</span>
-                            {/* <span className='skill gold'>GatsbyJS</span> */}
-                            <span className='skill red'>Firebase</span>
-                            <span className='skill green'>Google Cloud Platform</span>
-                            {/* <span className='skill pink'>GraphQL</span> */}
-                    </div>
-                    </a>
                     <a href={pipelineNoText} target='_blank'>
                         <div className="project">
                                 <h3>Analytics Pipeline & Dashboard</h3>

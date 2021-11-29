@@ -27,7 +27,8 @@ const ChickenTinder = props => {
       <SEO title="Chicken Tinder" />
       <div className="fade-in">
         <h1 className="title shrink">chicken tinder</h1>
-        <StyledLink to="/books">
+        
+        <StyledLink to="/code">
           <h4>back</h4>
         </StyledLink>
         

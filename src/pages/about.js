@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import logoING from "../images/ing.png"
 import logoDell from "../images/dell.png"
 import logoPolo from "../images/polo_logo.jpeg"
-import logoDatadog from "../images/datadog.png"
+import logoDatadog from "../images/datadog_logo3.jpeg"
 import logoNoom from "../images/noom_logo.png"
 
 const About = props => {

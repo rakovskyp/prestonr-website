@@ -5,7 +5,8 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 import ctLogo from "../../images/chicken-tinder-logo.png"
-import ctMock from "../../images/chicken-tinder-cur-state.png"
+import ctMock from "../../images/chicken-tinder-mockup.png"
+import ctDemo from "../../images/CTDemo.gif"
 
 const StyledLink = styled(props => <Link {...props} />)`
   font-size: 16px;
@@ -108,7 +109,9 @@ const ChickenTinder = props => {
         <h2>current state & mockup</h2>
 
         <img src={ctMock} alt="Chicken Tinder Mockup" />
+        <h2>current state & mockup</h2>
 
+        <img className="ctDemo" src={ctDemo} alt="Chicken Tinder Demo" />
         <h2>swot analysis</h2>
 
         <h4>strengths</h4>

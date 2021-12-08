@@ -75,6 +75,16 @@
   border-radius: 15px !important;
 }
 
+.ctDemo {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+}
+
 td {
   text-align: middle;
 }

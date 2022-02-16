@@ -30,9 +30,9 @@ const Code = (props) => {
 
                 <div className="projectContainer">
 
-                    <StyledLink to='/papers/chickentinder'>
+                    <StyledLink to='/papers/breakingbread'>
                     <div className="project">
-                        <h3>Chicken Tinder</h3>
+                        <h3>Chicken Tinder (now breaking bread)</h3>
                         <p><em>2021</em></p>
 
                         <img src={ct}></img>

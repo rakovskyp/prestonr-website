@@ -21,12 +21,12 @@ const StyledLink = styled(props => <Link {...props} />)`
   font-family: georgia, serif;
 `
 
-const ChickenTinder = props => {
+const BreakingBread = props => {
   return (
     <Layout>
-      <SEO title="Chicken Tinder" />
+      <SEO title="Breaking Bread" />
       <div className="fade-in">
-        <h1 className="title shrink">chicken tinder</h1>
+        <h1 className="title shrink">breaking bread (formerly chicken tinder)</h1>
 
         <StyledLink to="/code">
           <h4>back</h4>
@@ -45,10 +45,10 @@ const ChickenTinder = props => {
 
         <h2>product</h2>
         <p>
-          The Chicken Tinder app combines an engaging, intuitive card deck user
+          The Breaking Bread app combines an engaging, intuitive card deck user
           interface with local restaurant information to help couples make
           better decisions on where to eat. Using Grubhub’s low latency API,
-          Chicken Tinder is able to pull robust information about nearby
+          Breaking Bread is able to pull robust information about nearby
           restaurants, including cuisine, menus, photos, reviews and ratings.
           This data is used to construct a “card” featuring all of the relevant
           data. Couples (2+ people) can swipe through a collection of these
@@ -86,7 +86,7 @@ const ChickenTinder = props => {
           onerous. The study found that discussions over where to eat typically
           last about 17 minutes. This decision time is significantly longer than
           the average 2 minutes and 46 seconds determined in early alpha testing
-          of Chicken Tinder. Thus, using our app saves consumers a tremendous
+          of Breaking Bread. Thus, using our app saves consumers a tremendous
           amount of time.
         </p>
 
@@ -171,4 +171,4 @@ const ChickenTinder = props => {
   )
 }
 
-export default ChickenTinder
+export default BreakingBread

@@ -37,7 +37,7 @@ const Code = (props) => {
 
                         <img src={ct}></img>
                         <p>Swipe on your local restaurants with a friend – where you match is where you eat! 
-                            <em>Click here to meet</em>
+                            <em> Click here to read about it!</em>
                         </p>
 
                         <span className='skill blue'>React Native</span>

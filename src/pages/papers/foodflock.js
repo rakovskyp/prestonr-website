@@ -5,7 +5,7 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 import ctLogo from "../../images/chicken-tinder-logo.png"
-import ctMock from "../../images/chicken-tinder-mockup.png"
+import ctMock from "../../images/foodFlockMock.jpeg"
 import ctDemo from "../../images/CTDemo.gif"
 
 const StyledLink = styled(props => <Link {...props} />)`
@@ -21,12 +21,12 @@ const StyledLink = styled(props => <Link {...props} />)`
   font-family: georgia, serif;
 `
 
-const BreakingBread = props => {
+const FoodFlock = props => {
   return (
     <Layout>
-      <SEO title="Breaking Bread" />
+      <SEO title="Food Flock" />
       <div className="fade-in">
-        <h1 className="title shrink">breaking bread (formerly chicken tinder)</h1>
+        <h1 className="title shrink">food flock (formerly chicken tinder)</h1>
 
         <StyledLink to="/code">
           <h4>back</h4>
@@ -45,10 +45,10 @@ const BreakingBread = props => {
 
         <h2>product</h2>
         <p>
-          The Breaking Bread app combines an engaging, intuitive card deck user
+          The Food Flock app combines an engaging, intuitive card deck user
           interface with local restaurant information to help couples make
           better decisions on where to eat. Using Grubhub’s low latency API,
-          Breaking Bread is able to pull robust information about nearby
+          Food Flock is able to pull robust information about nearby
           restaurants, including cuisine, menus, photos, reviews and ratings.
           This data is used to construct a “card” featuring all of the relevant
           data. Couples (2+ people) can swipe through a collection of these
@@ -86,8 +86,8 @@ const BreakingBread = props => {
           onerous. The study found that discussions over where to eat typically
           last about 17 minutes. This decision time is significantly longer than
           the average 2 minutes and 46 seconds determined in early alpha testing
-          of Breaking Bread. Thus, using our app saves consumers a tremendous
-          amount of time.
+          of Food Flock. Thus, using our app saves consumers a tremendous amount
+          of time.
         </p>
 
         <p>
@@ -108,8 +108,9 @@ const BreakingBread = props => {
 
         <h2>current state & mockup</h2>
 
-        <img src={ctMock} alt="Chicken Tinder Mockup" />
-        <h2>current state & mockup</h2>
+        <img src={ctMock} alt="Food Flock Mockup" />
+
+        <h2>demo</h2>
 
         <img className="ctDemo" src={ctDemo} alt="Chicken Tinder Demo" />
         <h2>swot analysis</h2>
@@ -171,4 +172,4 @@ const BreakingBread = props => {
   )
 }
 
-export default BreakingBread
+export default FoodFlock

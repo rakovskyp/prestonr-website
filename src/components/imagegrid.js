@@ -13,7 +13,6 @@ import freshman7 from "../mems/freshman-7.jpg"
 import sophomore1 from "../mems/sophomore-1.jpg"
 import sophomore2 from "../mems/sophomore-2.jpg"
 
-import junior2 from "../mems/junior-2.jpg"
 import junior3 from "../mems/junior-3.jpg"
 import junior4 from "../mems/junior-4.png"
 import junior5 from "../mems/junior-5.png"
@@ -44,6 +43,19 @@ import senior8 from "../mems/senior-8.png"
 import senior9 from "../mems/senior-9.png"
 import senior10 from "../mems/senior-10.jpg"
 
+import dd from "../mems/dd.jpg"
+import sf1 from "../mems/sf1.jpg"
+import vegas1 from "../mems/vegas1.png"
+import vegas2 from "../mems/vegas2.png"
+import snakehips0 from "../mems/snakehips0.png"
+import snakehips1 from "../mems/snakehips1.jpg"
+import snakehips2 from "../mems/snakehips2.png"
+import skitrip1 from "../mems/skitrip1.jpg"
+import skitrip2 from "../mems/skitrip2.jpg"
+import skitrip3 from "../mems/skitrip3.png"
+import skitrip4 from "../mems/skitrip4.png"
+import skitrip5 from "../mems/skitrip5.png"
+
 import { motion } from "framer-motion"
 
 const ImageGrid = ({ setSelectedImg }) => {
@@ -58,7 +70,6 @@ const ImageGrid = ({ setSelectedImg }) => {
     freshman7,
     sophomore1,
     sophomore2,
-    junior2,
     junior3,
     junior4,
     junior5,
@@ -86,6 +97,18 @@ const ImageGrid = ({ setSelectedImg }) => {
     senior8,
     senior9,
     senior10,
+    dd,
+    sf1,
+    vegas1,
+    vegas2,
+    snakehips0,
+    snakehips1,
+    snakehips2,
+    skitrip1,
+    skitrip2,
+    skitrip3,
+    skitrip4,
+    skitrip5,
   ].reverse()
 
   return (

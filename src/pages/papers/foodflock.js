@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import ctLogo from "../../images/food-flock-logo.png"
 import ctMock from "../../images/foodFlockMock.jpeg"
 import ctDemo from "../../images/CTDemo.gif"
+import pageDemo from "../../images/pageDemo.gif"
 
 const StyledLink = styled(props => <Link {...props} />)`
   font-size: 16px;
@@ -110,9 +111,14 @@ const FoodFlock = props => {
 
         <img src={ctMock} alt="Food Flock Mockup" />
 
-        <h2>demo</h2>
+        <h2>swiping demo</h2>
 
         <img className="ctDemo" src={ctDemo} alt="Chicken Tinder Demo" />
+
+        <h2>page demo</h2>
+
+        <img className="ctDemo" src={pageDemo} alt="Chicken Tinder Demo" />
+
         <h2>swot analysis</h2>
 
         <h4>strengths</h4>

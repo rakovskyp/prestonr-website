@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-import ctLogo from "../../images/chicken-tinder-logo.png"
+import ctLogo from "../../images/food-flock-logo.png"
 import ctMock from "../../images/foodFlockMock.jpeg"
 import ctDemo from "../../images/CTDemo.gif"
 

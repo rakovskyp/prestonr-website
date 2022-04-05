@@ -88,10 +88,8 @@ const About = props => {
 
         <p>Stats: </p>
         <ul>
-          <li>Favorite show: Bojack Horseman</li>
-          <li>Favorite food: Sushi</li>
           <li>
-            Favorite book: We Learning Nothing by Tim Kreider{" "}
+            Favorite book: We Learn Nothing by Tim Kreider{" "}
             <strike>Moonwalking with Einstein by Joshua Foer</strike>
           </li>
           <li>
@@ -100,9 +98,18 @@ const About = props => {
           </li>
           <li>Current age: {age}</li>
           <li>
-            Location: Rockville Centre, NY <strike>Boston, MA</strike>
+            Location: Boston, MA <strike>Rockville Centre, NY</strike>{" "}
+            <strike>Boston, MA</strike>
           </li>
+          <li>Places lived: 3</li>
+          <li>Conversations with strangers: 32</li>
+          <li>Pieces of sushi eaten: 470</li>
+          <li>Minutes of my life spent watching Bojack Horseman: 2125</li>
+          <li>Times snowboarded: 14</li>
+          <li>Unique thoughts had: 0</li>
         </ul>
+
+        <p>Last updated: April 5th, 2022</p>
 
         <p>Previously worked at:</p>
 

@@ -104,13 +104,13 @@ const About = props => {
           <li>Places lived: 3</li>
           <li>Emails from Jet Blue: 456</li>
           <li>Conversations with strangers: 32</li>
-          <li>Pieces of sushi eaten: 470</li>
+          <li>Pieces of sushi eaten: 548</li>
           <li>Minutes of my life spent watching Bojack Horseman: 2126</li>
           <li>Times snowboarded: 14</li>
           <li>Unique thoughts had: 0</li>
         </ul>
 
-        <p>Last updated: April 12th, 2022</p>
+        <p>Last updated: April 15th, 2022 (+78 piece of sushi)</p>
 
         <p>Previously worked at:</p>
 

@@ -56,6 +56,43 @@ import skitrip3 from "../mems/skitrip3.png"
 import skitrip4 from "../mems/skitrip4.png"
 import skitrip5 from "../mems/skitrip5.png"
 
+import april2022_1 from "../mems/2022-april/april-1.png"
+import april2022_2 from "../mems/2022-april/april-2.png"
+import april2022_3 from "../mems/2022-april/april-3.png"
+
+import may2022_1 from "../mems/2022-may/may-1.png"
+import may2022_2 from "../mems/2022-may/may-2.png"
+import may2022_3 from "../mems/2022-may/may-3.png"
+import may2022_4 from "../mems/2022-may/may-4.png"
+
+import june2022_1 from "../mems/2022-june/june-1.png"
+import june2022_2 from "../mems/2022-june/june-2.png"
+import june2022_3 from "../mems/2022-june/june-3.png"
+import june2022_4 from "../mems/2022-june/june-4.png"
+import june2022_5 from "../mems/2022-june/june-5.png"
+import june2022_6 from "../mems/2022-june/june-6.png"
+import june2022_7 from "../mems/2022-june/june-7.png"
+import june2022_8 from "../mems/2022-june/june-8.png"
+
+import july2022_1 from "../mems/2022-july/july-1.png"
+import july2022_2 from "../mems/2022-july/july-2.png"
+import july2022_3 from "../mems/2022-july/july-3.png"
+import july2022_4 from "../mems/2022-july/july-4.png"
+
+import august2022_1 from "../mems/2022-august/august-1.png"
+import august2022_2 from "../mems/2022-august/august-2.png"
+import august2022_3 from "../mems/2022-august/august-3.png"
+import august2022_4 from "../mems/2022-august/august-4.png"
+
+import september2022_1 from "../mems/2022-september/september-1.png"
+import september2022_2 from "../mems/2022-september/september-2.png"
+import september2022_3 from "../mems/2022-september/september-3.png"
+
+import october2022_1 from "../mems/2022-october/october-1.png"
+import october2022_2 from "../mems/2022-october/october-2.png"
+
+import november2022_1 from "../mems/2022-november/november-1.png"
+
 import { motion } from "framer-motion"
 
 const ImageGrid = ({ setSelectedImg }) => {
@@ -109,6 +146,35 @@ const ImageGrid = ({ setSelectedImg }) => {
     skitrip3,
     skitrip4,
     skitrip5,
+    april2022_1,
+    april2022_2,
+    april2022_3,
+    may2022_1,
+    may2022_2,
+    may2022_3,
+    may2022_4,
+    june2022_1,
+    june2022_2,
+    june2022_3,
+    june2022_4,
+    june2022_5,
+    june2022_6,
+    june2022_7,
+    june2022_8,
+    july2022_1,
+    july2022_2,
+    july2022_3,
+    july2022_4,
+    august2022_1,
+    august2022_2,
+    august2022_3,
+    august2022_4,
+    september2022_1,
+    september2022_2,
+    september2022_3,
+    october2022_1,
+    october2022_2,
+    november2022_1,
   ].reverse()
 
   return (

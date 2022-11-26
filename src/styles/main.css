@@ -242,6 +242,20 @@ a {
   border: 3px solid white;
 }
 
+
+.changelog {
+  color: gray;
+}
+
+.changelog ul {
+  list-style: none;
+}
+
+.changelog ul li:before {
+  content: "+";
+  margin-right: 4px;
+}
+
 #logo {
   animation: fill 0.5s ease forwards 3.5s;
 }

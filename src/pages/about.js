@@ -114,7 +114,7 @@ const About = props => {
         <div className="changelog">
           <p>Last updated: November 26th, 2022 </p>
           <ul>
-            <li>20 minutes bojack horseman</li>
+            <li>40 minutes watching bojack horseman</li>
             <li>1 place lived</li>
             <li>162 jetblue emails</li>
             <li>17 conversations with strangers</li>

@@ -90,8 +90,12 @@ import september2022_3 from "../mems/2022-september/september-3.png"
 
 import october2022_1 from "../mems/2022-october/october-1.png"
 import october2022_2 from "../mems/2022-october/october-2.png"
+import october2022_3 from "../mems/2022-october/october-3.png"
+import october2022_4 from "../mems/2022-october/october-4.jpg"
 
 import november2022_1 from "../mems/2022-november/november-1.png"
+import november2022_2 from "../mems/2022-november/november-2.jpg"
+import november2022_3 from "../mems/2022-november/november-3.png"
 
 import { motion } from "framer-motion"
 
@@ -174,7 +178,11 @@ const ImageGrid = ({ setSelectedImg }) => {
     september2022_3,
     october2022_1,
     october2022_2,
+    october2022_3,
+    october2022_4,
     november2022_1,
+    november2022_2,
+    november2022_3,
   ].reverse()
 
   return (

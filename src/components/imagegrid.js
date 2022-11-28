@@ -82,7 +82,6 @@ import july2022_4 from "../mems/2022-july/july-4.png"
 import august2022_1 from "../mems/2022-august/august-1.png"
 import august2022_2 from "../mems/2022-august/august-2.png"
 import august2022_3 from "../mems/2022-august/august-3.png"
-import august2022_4 from "../mems/2022-august/august-4.png"
 
 import september2022_1 from "../mems/2022-september/september-1.png"
 import september2022_2 from "../mems/2022-september/september-2.png"
@@ -172,7 +171,6 @@ const ImageGrid = ({ setSelectedImg }) => {
     august2022_1,
     august2022_2,
     august2022_3,
-    august2022_4,
     september2022_1,
     september2022_2,
     september2022_3,

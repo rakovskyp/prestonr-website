@@ -54,9 +54,8 @@ const Media = props => {
             doing something right.
           </li>
           <li>
-            "Some of the most meaningful parts of our lives are a direct result
-            of negative feelings that slipped through, despite our best efforts
-            to block them out."
+            “It is the suffering that we choose that affords the most
+            opportunity for pleasure, meaning, and personal growth.”
           </li>
         </ul>
 

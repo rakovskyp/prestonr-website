@@ -27,7 +27,7 @@ const FoodFlock = props => {
     <Layout>
       <SEO title="Food Flock" />
       <div className="fade-in">
-        <h1 className="title shrink">food flock (formerly chicken tinder)</h1>
+        <h1 className="title shrink">food flock</h1>
 
         <StyledLink to="/code">
           <h4>back</h4>
@@ -35,6 +35,14 @@ const FoodFlock = props => {
 
         <img className="ctLogo" src={ctLogo} alt="Chicken Tinder Logo" />
 
+        <a
+          className="links"
+          href="https://apps.apple.com/mr/app/food-flock/id1627833781?platform=iphone"
+          target="_blank"
+        >
+          link to app store here
+        </a>
+        <p></p>
         <h2>mission statement</h2>
         <p>
           Our mission is to help couples discover great dining experiences at
@@ -106,18 +114,6 @@ const FoodFlock = props => {
           in apps similar to ours which centralize and streamline the menu data
           viewing process.
         </p>
-
-        <h2>current state & mockup</h2>
-
-        <img src={ctMock} alt="Food Flock Mockup" />
-
-        <h2>swiping demo</h2>
-
-        <img className="ctDemo" src={ctDemo} alt="Chicken Tinder Demo" />
-
-        <h2>page demo</h2>
-
-        <img className="ctDemo" src={pageDemo} alt="Chicken Tinder Demo" />
 
         <h2>swot analysis</h2>
 

@@ -9,16 +9,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-
-import styled from "styled-components";
-import Nav from './nav'
+import styled from "styled-components"
+import Nav from "./nav"
 import "./layout.css"
 
 const StyledLink = styled(props => <Link {...props} />)`
-    text-decoration: none;
-    text-decoration-color: initial;
-    text-decoration-style: initial;
-`;
+  text-decoration: none;
+  text-decoration-color: initial;
+  text-decoration-style: initial;
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,11 +33,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <div>
-        <StyledLink><h1 className="headerPreston">preston</h1></StyledLink>
+        <StyledLink to="/">
+          <h1 className="headerPreston">preston</h1>
+        </StyledLink>
       </div>
 
       <div className="headerOther">
-          <Nav />
+        <Nav />
       </div>
       <div
         style={{
@@ -48,9 +49,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          {` `}
-        </footer>
+        <footer>{` `}</footer>
       </div>
     </>
   )

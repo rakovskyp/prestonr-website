@@ -27,11 +27,11 @@ const Code = props => {
         <h1 className="title shrink">code</h1>
 
         <div className="projectContainer">
-          <StyledLink to="/papers/foodflock">
+          <StyledLink to="https://apps.apple.com/mr/app/food-flock/id1627833781?platform=iphone">
             <div className="project">
-              <h3>Food Flock (previously Chicken Tinder)</h3>
+              <h3>Food Flock</h3>
               <p>
-                <em>2021</em>
+                <em>2020 – 2022</em>
               </p>
 
               <img src={ffMock}></img>

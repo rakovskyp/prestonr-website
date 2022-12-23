@@ -86,6 +86,38 @@ const About = props => {
           friends – I'm constantly learning and growing in one way or another.
         </p>
 
+        <p>
+          Here's my{" "}
+          <a className="links" href="mailto:rakovsky.p@northeastern.edu">
+            Email
+          </a>
+          ,{" "}
+          <a
+            className="links"
+            href="https://www.linkedin.com/in/rakovskypreston/"
+            target="_blank"
+          >
+            {" "}
+            LinkedIn
+          </a>
+          ,{" "}
+          <a
+            className="links"
+            href="https://github.com/rakovskyp"
+            target="_blank"
+          >
+            Github
+          </a>
+          , and{" "}
+          <a
+            className="links"
+            href="https://prestonr.xyz/resume.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </p>
+
         <p>Stats: </p>
         <ul>
           <li>
@@ -103,24 +135,13 @@ const About = props => {
             <strike>Boston, MA</strike> <strike>Rockville Centre, NY</strike>
           </li>
           <li>Places lived: 4</li>
-          <li>Emails from Jet Blue: 618</li>
+          <li>Emails from JetBlue: 630</li>
           <li>Conversations with strangers: 49</li>
-          <li>Pieces of sushi eaten: 610</li>
+          <li>Pieces of sushi eaten: 624</li>
           <li>Minutes of my life spent watching Bojack Horseman: 2146</li>
-          <li>Times snowboarded: 14</li>
+          <li>Times snowboarded: 18</li>
           <li>Unique thoughts had: 0</li>
         </ul>
-
-        <div className="changelog">
-          <p>Last updated: November 26th, 2022 </p>
-          <ul>
-            <li>40 minutes watching bojack horseman</li>
-            <li>1 place lived</li>
-            <li>162 jetblue emails</li>
-            <li>17 conversations with strangers</li>
-            <li>63 pieces of sushi</li>
-          </ul>
-        </div>
 
         <p>Previously worked at:</p>
 

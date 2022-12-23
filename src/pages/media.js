@@ -10,11 +10,11 @@ const Media = props => {
       <div className="fade-in">
         <h1 className="title shrink">media recommendations</h1>
         <p>
-          The idea of media recommendations are important to me because they
-          serve as "resumes" for the values and interests that people have. We
-          already have career resumes, like the classic one pager that you apply
-          to jobs with, social resumes, like our profiles on instagram, but
-          nothing that speaks to ideas that make people unique.
+          Media recommendations are important because they serve as "resumes"
+          people's different values and interests. We already have career
+          resumes, the classic one pager that you apply to jobs with, social
+          resumes, our profiles on instagram, but nothing that speaks to ideas
+          that make people unique.
         </p>
         <h3>essays</h3>
         <p></p>

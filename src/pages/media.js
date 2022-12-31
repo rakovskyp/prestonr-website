@@ -10,11 +10,10 @@ const Media = props => {
       <div className="fade-in">
         <h1 className="title shrink">media recommendations</h1>
         <p>
-          Media recommendations are important because they serve as "resumes"
-          people's different values and interests. We already have career
-          resumes, the classic one pager that you apply to jobs with, social
-          resumes, our profiles on instagram, but nothing that speaks to ideas
-          that make people unique.
+          I'm a big believer in media recommendations as a proxy for values and
+          interests. The media we consume and advocate for reflect the ideas
+          that we think are worth thinking about. Below is a list of essays and
+          interviews that I've resonated the most with this past year.
         </p>
         <h3>essays</h3>
         <p></p>
@@ -63,7 +62,7 @@ const Media = props => {
         <p></p>
         <a
           className="links"
-          href="https://www.theatlantic.com/family/archive/2022/03/chasing-happiness-leads-to-dissatisfaction/629427/?utm_source=pocket_collection_story"
+          href="https://www.youtube.com/watch?v=kFQUDCgMjRc"
           target="_blank"
         >
           <h4>Chamath Palihapitiya's interview with Lex Fridman</h4>
@@ -99,7 +98,7 @@ const Media = props => {
 
         <a
           className="links"
-          href="https://www.theatlantic.com/family/archive/2022/03/chasing-happiness-leads-to-dissatisfaction/629427/?utm_source=pocket_collection_story"
+          href="https://tim.blog/2018/06/18/brandon-stanton-humans-of-new-york/"
           target="_blank"
         >
           <h4>Brandon Stanton's interview with Tim Ferris</h4>

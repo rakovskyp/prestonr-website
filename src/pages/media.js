@@ -12,8 +12,8 @@ const Media = props => {
         <p>
           I'm a big believer in media recommendations as a proxy for values and
           interests. The media we consume and advocate for reflect the ideas
-          that we think are worth thinking about. Below is a list of essays and
-          interviews that I've resonated the most with this past year.
+          that are worth thinking about. Below is a list of essays, interviews,
+          short stories, and videos that resonate the most with me.
         </p>
         <h3>essays</h3>
         <p></p>
@@ -89,8 +89,8 @@ const Media = props => {
             as a byproduct, but I think that you should try to find your own
             personal happiness and then measure how that manifests as it relates
             to society and other people, but if the answer to those questions is
-            zero, that doesn’t make you less of a person”. This really affiremed
-            ot me that having a mission to maximize impact is a recipe for a
+            zero, that doesn’t make you less of a person”. This really affirmed
+            to me that having a mission to maximize impact is a recipe for a
             life of general unhappiness because there’s always more impact to be
             had.
           </li>
@@ -111,6 +111,53 @@ const Media = props => {
             starting Humans of New York, dispels myths that the media has tried
             to box him into, and demonstrates a level of non-judgement and
             understanding that is truly admirable.
+          </li>
+        </ul>
+        <h3>short stories</h3>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://www.e-reading.life/bookreader.php/1048692/Chiang_-_Liking_What_You_See__A_Documentary.html"
+          target="_blank"
+        >
+          <h4>Liking What You See by Ted Chiang</h4>
+        </a>
+        <ul>
+          <li>
+            Thought provoking ideas on what could realistically happen if we
+            tried to remove beauty from soceity using a technology called
+            Calliagnosia (dubbed "calli").
+          </li>
+          <li>
+            Chiang does a phenomenal job at explaining different perspectives
+            and nuances that would arise from implementing calli. Started out
+            definitely pro-calli but had to rethink my stance after they shared
+            some perspectives
+          </li>
+        </ul>
+
+        <h3>videos</h3>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://www.youtube.com/watch?v=pnGxNUtZ_a4"
+          target="_blank"
+        >
+          <h4>consuming content to make my brain go quiet</h4>
+        </a>
+        <ul>
+          <li>
+            Ironic video about how the vast majority of content we consume is
+            brainless and serves to distract ourselves.
+          </li>
+          <li>
+            There's arguments to be made about the benefit of mindlessly
+            scrolling instagram, tiktok, reddit, twitter, etc., but the reality
+            is that most of us are using these platforms as a pacifier to turn
+            our brains off. The trade off is immediate short-term comfort at the
+            cost of introspection.
           </li>
         </ul>
       </div>

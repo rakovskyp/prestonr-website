@@ -75,7 +75,7 @@ const About = props => {
       <div className="fade-in">
         <h1 className="title shrink">about</h1>
 
-        <p>I'm Preston Rakovsky. </p>
+        <p>I'm Preston. </p>
 
         <p>
           {" "}

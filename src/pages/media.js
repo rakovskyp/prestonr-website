@@ -27,11 +27,6 @@ const Media = props => {
         </a>
         <ul>
           <li>
-            this was incredibly moving, beautifully written, and gave authentic
-            and real actionable advice on a structure towards moving through
-            life
-          </li>
-          <li>
             there are hundreds of essays on the concept of hedonic treadmills
             and fulfillment but this is the first one that made me feel truly
             understood
@@ -47,13 +42,7 @@ const Media = props => {
         </a>
         <ul>
           <li>
-            this really emphasized the true value of taking risks and has helped
-            me reframe to my brain that feelings of anxiousness are often a sign
-            that I’m doing something right
-          </li>
-          <li>
-            “it is the suffering that we choose that affords the most
-            opportunity for pleasure, meaning, and personal growth”
+            taking risks is fulfilling
           </li>
         </ul>
 
@@ -69,25 +58,7 @@ const Media = props => {
 
         <ul>
           <li>
-            great interview about Chamath’s humble beginnings with no friends
-            and an abusive father to his completely changed relationship with
-            his parents and friends today. he has an incredible understanding of
-            how nuanced the world is and he talks about his ideas about
-            minimizing mistakes in life and on living a meaningful life.
-          </li>
-          <li>
-            a natural consequence of the people I surround myself with has
-            resulted in feeling pressured to maximize my impact on the world. it
-            almost feels like this is supposed to be the “right” way to live. as
-            a result, i've always felt a little guilty that intrinsically i
-            don’t feel like that's the one thing that motivates me the most.
-            chamath touches on this point that really speaks to me personally.
-            he believes that “if you focus on having to have an impact on the
-            world I think you’re going to end up deeply unhappy. it may happen
-            as a byproduct, but I think that you should try to find your own
-            personal happiness and then measure how that manifests as it relates
-            to society and other people, but if the answer to those questions is
-            zero, that doesn’t make you less of a person”
+            chamath has a really great understanding of nuance
           </li>
         </ul>
 
@@ -101,11 +72,7 @@ const Media = props => {
 
         <ul>
           <li>
-            this is the most authentic interview I’ve ever listened to. Brandon
-            talks about his deep feelings of insecurity that he dealt with when
-            starting Humans of New York, dispels myths that the media has tried
-            to box him into, and demonstrates the highest levels of
-            non-judgement and understanding i've ever seen.
+            the most authentic interview I’ve ever listened to
           </li>
         </ul>
         <h3>short stories</h3>
@@ -120,15 +87,8 @@ const Media = props => {
         </a>
         <ul>
           <li>
-            thought provoking ideas on what could realistically happen if we
-            tried to remove beauty from soceity using a technology called
-            Calliagnosia (dubbed "calli").
-          </li>
-          <li>
-            Chiang does a phenomenal job at explaining different perspectives
-            and nuances that would arise from implementing calli. Started out
-            definitely pro-calli but had to rethink my stance after they shared
-            some perspectives
+            very thought provoking ideas on what could realistically happen if we
+            tried to remove beauty from society
           </li>
         </ul>
 
@@ -144,17 +104,70 @@ const Media = props => {
         </a>
         <ul>
           <li>
-            ironic video about how the vast majority of content we consume is
-            brainless and serves to distract ourselves
-          </li>
-          <li>
-            there's arguments to be made about the benefit of mindlessly
-            scrolling instagram, tiktok, reddit, twitter, etc., but the reality
-            is that most of us are using these platforms as a pacifier to turn
-            our brains off. the trade off is immediate short-term comfort at the
-            cost of introspection.
+            thoughts on using social media as a pacifier
           </li>
         </ul>
+
+        <h3>notes</h3>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/11reEHuN9QR7P3C7HLxPxjK7KGPOwUK7Fag50NLKCbKs/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>viability of vitamin + mineral supplements</h4>
+        </a>
+
+        <p>
+        </p>
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/1It1jpybwJvNe0kHwgKOEAliW9R9CEcnzzm-d62CIgYs/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>alcohol + the brain</h4>
+        </a>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/1ZUKWXV_Net1LwlkUnBD5vFBPCQrAgGHLJwim0haXvAs/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>obesity</h4>
+        </a>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/1Xc30ecfQWwZWcX-fSWDOptFwUlJsJuuFylKKAFtFeUo/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>snow sport injuries</h4>
+        </a>
+        <p></p>
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/1ObtMy5qpUso7aOscgHzLRKlFqrIeOkIiZ5rbpSsRH1c/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>benefits of habitual fitness</h4>
+        </a>
+        <p></p>
+
+
+        <a
+          className="links"
+          href="https://docs.google.com/document/d/12zeuMJo4AxVbnpSzXUFooELCLzuJ9-d37__dCb--HNQ/edit?usp=sharing"
+          target="_blank"
+        >
+          <h4>longevity and diet</h4>
+        </a>
+
+        
       </div>
     </Layout>
   )

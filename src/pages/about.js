@@ -52,6 +52,14 @@ const About = props => {
       start: "june 2022",
       end: "aug 2022",
     },
+    {
+      place: "Datadog",
+      position: "Software Engineer 2",
+      link: "https://www.datadog.com/",
+      logo: logoDatadog,
+      start: "feb 2022",
+      end: "present",
+    },
   ]
 
   const [age, setAge] = React.useState(0)
@@ -79,19 +87,13 @@ const About = props => {
 
         <p>
           {" "}
-          I'm a Computer Science and Business graduate from Northeastern
-          University. In my spare time, I'm really interested in building
-          things, working out, and reading. If I'm passionate about anything,
-          it's learning. Whether through books, computer science projects, or
-          friends – I'm constantly learning and growing in one way or another.
+          I believe the world is a more beautiful place when people are more vulnerable so I make <a className="links" href="https://www.instagram.com/prestonrack/">
+            videos
+          </a> about that.
         </p>
 
         <p>
           Here's my{" "}
-          <a className="links" href="mailto:rakovsky.p@northeastern.edu">
-            Email
-          </a>
-          ,{" "}
           <a
             className="links"
             href="https://www.linkedin.com/in/rakovskypreston/"
@@ -109,37 +111,31 @@ const About = props => {
             Github
           </a>
           , and{" "}
-          <a
-            className="links"
-            href="https://prestonr.xyz/resume.pdf"
-            target="_blank"
-          >
-            Resume
-          </a>
         </p>
 
         <p>Stats: </p>
         <ul>
           <li>
-            Favorite book: The Alchemist by Paulo Coelho{" "}
+            Favorite book: Someone Who Will Love You in All Your Damaged Glory by Raphael Bob-Waksberg{" "}
+            <strike>The Alchemist by Paulo Coelho</strike>{" "}
             <strike>We Learn Nothing by Tim Kreider</strike>{" "}
             <strike>Moonwalking with Einstein by Joshua Foer</strike>
           </li>
           <li>
             Go to drink: Water with ice <strike>English Breakfast Tea</strike>{" "}
             <strike>Peach Snapple Iced Tea</strike>
-          </li>
-          <li>Current age: {age}</li>
-          <li>
-            Location: San Francisco, CA <strike>Los Angeles, CA</strike>{" "}
+          {/* </li> */}
+          {/* <li>Current age: {age}</li> */}
+          {/* <li> */}
+            Location: New York, NY <strike>San Francisco, CA</strike>{" "} <strike>Los Angeles, CA</strike>{" "}
             <strike>Boston, MA</strike> <strike>Rockville Centre, NY</strike>
           </li>
-          <li>Places lived: 4</li>
+          <li>Places lived: 5</li>
           <li>Emails from JetBlue: 630</li>
-          <li>Conversations with strangers: 49</li>
+          <li>Conversations with strangers: 212</li>
           <li>Pieces of sushi eaten: 624</li>
           <li>Minutes of my life spent watching Bojack Horseman: 2146</li>
-          <li>Times snowboarded: 18</li>
+          <li>Times snowboarded: 24</li>
           <li>Unique thoughts had: 0</li>
         </ul>
 
